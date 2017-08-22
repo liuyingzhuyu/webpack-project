@@ -1,0 +1,94 @@
+
+li{
+    list-style: none ;
+}
+.root{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .seach-box{
+        height: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 0;
+        span{
+            
+        }
+       input{
+           width: 9rem; 
+           height: 1rem;
+           border-radius: 0.5rem;
+           padding: 0.17rem 0.4rem;
+           outline: none;
+           border: none;
+           background: #f8f8f8;
+        }
+    }
+    .hot-box{
+            flex-grow: 1;
+             padding: 0.17rem 0.4rem;
+            h4.hotSearch{
+                 font-size: 18px;
+                 font-weight: bold ;
+                 color: #666;
+                }
+            ul {
+                 padding: 0;
+                li{
+                    display: inline-block;
+                    width:auto;
+                    padding: 10px;
+                    margin: 10px 10px 10px 0 ;
+                    background: #f7f7f7;
+                    border-radius: 5px;
+                }
+            }
+            
+            
+       } 
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

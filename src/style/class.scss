@@ -1,0 +1,136 @@
+
+li{
+    list-style: none ;
+}
+.root{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   header{
+       .seach-box{
+        height: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 0;
+       
+       input{
+           width: 9rem; 
+           height: 1rem;
+           border-radius: 0.5rem;
+           padding: 0.17rem 0.4rem;
+           outline: none;
+           border: none;
+           background: #f8f8f8;
+            }
+        }
+        p{position: relative;
+            
+            .cha{
+                position: absolute;
+                top: 22px;
+                right:25px;
+            }
+        }
+           
+       
+       
+       .paixu{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           a{
+               display: inline-block;
+               padding:0.2rem 1rem;
+           }
+       }
+   } 
+
+   .dianContainer{
+       flex-grow: 1;
+       .dian-one {
+            width: 100%;
+            height: 90px;
+            display: flex;
+            background: rgb(255, 255, 255);
+            .dian-one img {
+                width: 60px;
+                height: 60px;
+                margin-top: 15px;}
+                .dianName {
+                    width: 89%;
+                    box-sizing: border-box;
+                    margin-left: 10px;
+                    padding: 5px 10px 10px 0px;
+                     p {
+                            font-size: 12px;
+                             span {
+                                float: right;
+                            }
+                        }
+                    }
+             
+        }
+        
+       
+                
+        
+        
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

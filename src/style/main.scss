@@ -1,0 +1,67 @@
+
+
+.main-box{
+    header{
+        height: 3.5rem;
+        padding: .266667rem .373333rem;
+        background-image: linear-gradient(90deg,#0af,#0085ff);
+        p{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.45rem;
+            color: #fff;
+            a{
+                 color: #fff;
+            }
+        }
+    }
+}
+
+
+.search-box{
+    width: 100%;
+ 
+    input{
+        
+        display: block;
+        margin: .15rem 0;
+        width: 100%;
+        height: .96rem;
+        text-align: center;
+        border-radius: .96rem;
+        box-shadow: 0 0.026667rem 0.066667rem 0 rgba(0,0,0,.2);
+        color: #333;
+        font-size: .346667rem;
+    }
+}
+
+
+.hotWords{
+    .swiper-slide{
+        padding: 0 20px;
+        width: auto;
+        color: #fff;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,167 @@
+html {
+  font-size: 10vw; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ddd; }
+
+body #root, body .root-box, body .root {
+  height: 100%; }
+
+.root-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .root-box section {
+    flex-grow: 1;
+    flex-shrink: 1; }
+  .root-box footer {
+    background: #fff;
+    width: 100%;
+    height: 40px;
+    padding: 5px 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around; }
+    .root-box footer a {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 1;
+      text-decoration: none; }
+    .root-box footer a.active {
+      color: #0089dc; }
+
+.main-box header {
+  height: 3.5rem;
+  padding: .266667rem .373333rem;
+  background-image: linear-gradient(90deg, #0af, #0085ff); }
+  .main-box header p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.45rem;
+    color: #fff; }
+    .main-box header p a {
+      color: #fff; }
+
+.search-box {
+  width: 100%; }
+  .search-box input {
+    display: block;
+    margin: .15rem 0;
+    width: 100%;
+    height: .96rem;
+    text-align: center;
+    border-radius: .96rem;
+    box-shadow: 0 0.02667rem 0.06667rem 0 rgba(0, 0, 0, 0.2);
+    color: #333;
+    font-size: .346667rem; }
+
+.hotWords .swiper-slide {
+  padding: 0 20px;
+  width: auto;
+  color: #fff; }
+
+li {
+  list-style: none; }
+
+.root {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .root .seach-box {
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0; }
+    .root .seach-box input {
+      width: 9rem;
+      height: 1rem;
+      border-radius: 0.5rem;
+      padding: 0.17rem 0.4rem;
+      outline: none;
+      border: none;
+      background: #f8f8f8; }
+  .root .hot-box {
+    flex-grow: 1;
+    padding: 0.17rem 0.4rem; }
+    .root .hot-box h4.hotSearch {
+      font-size: 18px;
+      font-weight: bold;
+      color: #666; }
+    .root .hot-box ul {
+      padding: 0; }
+      .root .hot-box ul li {
+        display: inline-block;
+        width: auto;
+        padding: 10px;
+        margin: 10px 10px 10px 0;
+        background: #f7f7f7;
+        border-radius: 5px; }
+
+li {
+  list-style: none; }
+
+.root {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .root header .seach-box {
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0; }
+    .root header .seach-box input {
+      width: 9rem;
+      height: 1rem;
+      border-radius: 0.5rem;
+      padding: 0.17rem 0.4rem;
+      outline: none;
+      border: none;
+      background: #f8f8f8; }
+  .root header p {
+    position: relative; }
+    .root header p .cha {
+      position: absolute;
+      top: 22px;
+      right: 25px; }
+  .root header .paixu {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .root header .paixu a {
+      display: inline-block;
+      padding: 0.2rem 1rem; }
+  .root .dianContainer {
+    flex-grow: 1; }
+    .root .dianContainer .dian-one {
+      width: 100%;
+      height: 90px;
+      display: flex;
+      background: white; }
+      .root .dianContainer .dian-one .dian-one img {
+        width: 60px;
+        height: 60px;
+        margin-top: 15px; }
+      .root .dianContainer .dian-one .dianName {
+        width: 89%;
+        box-sizing: border-box;
+        margin-left: 10px;
+        padding: 5px 10px 10px 0px; }
+        .root .dianContainer .dian-one .dianName p {
+          font-size: 12px; }
+          .root .dianContainer .dian-one .dianName p span {
+            float: right; }
